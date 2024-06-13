@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 
 # Log in to Azure
@@ -15,5 +14,3 @@ for appId in ${ownedApps[@]}; do
     az ad app delete --id $appId
     echo "Deleted app registration with App ID: $appId"
 done
-
-```
